@@ -60,4 +60,4 @@ requests.post(burp0_url,headers=burp0_headers,data=data1, verify=False,timeout=1
 print len(data1)
 ```
 
-[The specific reproduction process is shown in the video](./video/Tenda W6 堆溢出漏洞.mp4)
+[The specific reproduction process is shown in the video](video/Tenda W6 堆溢出漏洞.mp4)
